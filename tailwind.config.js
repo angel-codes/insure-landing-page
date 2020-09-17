@@ -5,7 +5,14 @@ module.exports = {
   },
   purge: [],
   theme: {
-    extend: {}
+    extend: {
+      colors: {
+        'dark-violet': '#2D2640',
+        'dark-grayish-violet': '#837d87',
+        'very-dark-violet': '#2b272f',
+        'grayish-blue': '#95a9c6'
+      }
+    }
   },
   variants: {},
   plugins: []
