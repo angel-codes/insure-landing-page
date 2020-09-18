@@ -106,8 +106,8 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  height: 192px;
-  width: 330px;
+  height: 300px;
+  width: 530px;
   background-image: url(/src/images/bg-pattern-footer-desktop.svg);
   background-repeat: no-repeat;
   background-size: contain;
