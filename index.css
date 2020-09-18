@@ -13,3 +13,67 @@ h5 {
 body {
   font-family: 'Karla', sans-serif;
 }
+
+.btn--primary {
+  @apply py-2 px-6;
+  @apply text-white font-bold uppercase;
+  @apply border-2 border-white;
+  @apply transition-colors ease-in-out duration-500;
+  @apply cursor-pointer;
+}
+
+.btn--primary:hover {
+  @apply text-dark-violet;
+  @apply bg-white;
+}
+
+.btn--secondary {
+  @apply py-2 px-6;
+  @apply text-dark-violet font-bold uppercase;
+  @apply border-2 border-dark-violet;
+  @apply transition-colors ease-in-out duration-500;
+  @apply cursor-pointer;
+}
+
+.btn--secondary:hover {
+  @apply text-white;
+  @apply bg-very-dark-violet;
+}
+
+.intro-section {
+  height: 40rem;
+}
+
+.intro-section::before {
+  content: '';
+  position: absolute;
+  width: 433px;
+  height: 589px;
+  background-image: url(/images/bg-pattern-intro-right-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 88px;
+  right: 0;
+}
+
+.intro-section::after {
+  content: '';
+  position: absolute;
+  width: 220px;
+  height: 444px;
+  background-image: url(/images/bg-pattern-intro-left-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  bottom: 0;
+  left: 0;
+}
+
+.heading::before {
+  content: '';
+  width: 10rem;
+  height: 0.5rem;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: 120%;
+  left: 0;
+}
