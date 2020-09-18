@@ -47,12 +47,12 @@ body {
 .intro-section::before {
   content: '';
   position: absolute;
-  width: 433px;
-  height: 589px;
+  width: 26rem;
+  height: 600px;
   background-image: url(/images/bg-pattern-intro-right-desktop.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  top: 88px;
+  top: 0;
   right: 0;
 }
 
@@ -64,7 +64,7 @@ body {
   background-image: url(/images/bg-pattern-intro-left-desktop.svg);
   background-repeat: no-repeat;
   background-size: contain;
-  bottom: 0;
+  bottom: -15rem;
   left: 0;
 }
 
