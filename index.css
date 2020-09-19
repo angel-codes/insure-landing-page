@@ -166,3 +166,9 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
 }
+
+@media screen and (max-width: 768px) {
+  .footer::after {
+    content: none;
+  }
+}

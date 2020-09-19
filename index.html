@@ -29,11 +29,11 @@
       href="https://cdn.materialdesignicons.com/5.6.55/css/materialdesignicons.min.css"
     />
   </head>
-  <body>
+  <body class="relative">
     <!-- Navigation -->
     <header class="w-full bg-white shadow-md">
       <div
-        class="container mx-auto px-5 lg:px-0 flex justify-between items-center py-8"
+        class="container mx-auto px-6 lg:px-0 flex justify-between items-center py-8"
       >
         <a class="cursor-pointer">
           <img src="src/images/logo.svg" alt="Insure logo" />
@@ -63,9 +63,11 @@
     <section class="intro-section lg:bg-dark-violet relative">
       <div class="container mx-auto grid grid-cols-2 lg:gap-8 lg:py-32">
         <div
-          class="intro-text px-5 lg:px-0 py-32 lg:py-0 order-2 lg:order-1 col-span-2 lg:col-span-1 bg-dark-violet lg:bg-transparent text-center lg:text-left"
+          class="intro-text px-6 lg:px-0 py-32 lg:py-0 order-2 lg:order-1 col-span-2 lg:col-span-1 bg-dark-violet lg:bg-transparent text-center lg:text-left"
         >
-          <h1 class="heading text-6xl text-white leading-none relative">
+          <h1
+            class="heading text-5xl lg:text-6xl text-white leading-none relative"
+          >
             Humanizing <br />
             your insurance.
           </h1>
@@ -102,7 +104,7 @@
             Don’t get stuck filling in tedious forms.
           </p>
         </div>
-        <div class="col-span-3 lg:col-span-1 text-center">
+        <div class="col-span-3 lg:col-span-1">
           <div
             class="mx-auto lg:mx-0 bg-grayish-blue w-16 h-16 rounded-full flex items-center justify-center mb-5"
           >
@@ -147,9 +149,11 @@
 
     <!-- Footer -->
     <footer class="bg-gray-100 py-12 relative footer">
-      <div class="container mx-auto">
-        <div class="flex justify-between items-center pb-8 border-b">
-          <div>
+      <div class="container mx-auto px-6 lg:px-0">
+        <div
+          class="flex flex-col lg:flex-row justify-between items-center pb-8 border-b-2 border-gray-400"
+        >
+          <div class="mb-6 lg:mb-0">
             <img src="src/images/logo.svg" alt="insure logo" />
           </div>
           <div class="flex items-center">
@@ -167,8 +171,8 @@
             ></span>
           </div>
         </div>
-        <div class="mt-8 grid grid-cols-4 gap-8">
-          <div>
+        <div class="mt-8 grid grid-cols-4 gap-8 text-center lg:text-left">
+          <div class="col-span-4 lg:col-span-1">
             <p class="text-base text-dark-grayish-violet font-bold uppercase">
               OUR COMPANY
             </p>
@@ -195,7 +199,7 @@
               </li>
             </ul>
           </div>
-          <div>
+          <div class="col-span-4 lg:col-span-1">
             <p class="text-base text-dark-grayish-violet font-bold uppercase">
               help me
             </p>
@@ -222,7 +226,7 @@
               </li>
             </ul>
           </div>
-          <div>
+          <div class="col-span-4 lg:col-span-1">
             <p class="text-base text-dark-grayish-violet font-bold uppercase">
               contact
             </p>
@@ -244,7 +248,7 @@
               </li>
             </ul>
           </div>
-          <div>
+          <div class="col-span-4 lg:col-span-1">
             <p class="text-base text-dark-grayish-violet font-bold uppercase">
               Others
             </p>
