@@ -147,6 +147,14 @@ body {
   background-size: cover;
 }
 
+@media screen and (max-width: 768px) {
+  .call-to-action::before {
+    width: 200px;
+    height: 350px;
+    background-image: url(/src/images/bg-pattern-how-we-work-mobile.svg);
+  }
+}
+
 .footer::after {
   content: '';
   position: absolute;
