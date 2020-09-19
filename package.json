@@ -4,7 +4,8 @@
   "description": "![Design preview for the Insure landing page coding challenge](./design/desktop-preview.jpg)",
   "main": "index.js",
   "scripts": {
-    "build-css:dev": "tailwindcss build index.css -o src/css/main.css"
+    "build-css:dev": "tailwindcss build index.css -o src/css/main.css",
+    "build-css:prod": "cross-env NODE_ENV=production tailwindcss build index.css -o src/css/main.css"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
   },
   "homepage": "https://github.com/angel-codes/insure-landing-page#readme",
   "dependencies": {
+    "cross-env": "^7.0.2",
     "tailwindcss": "^1.8.10"
   }
 }
