@@ -46,25 +46,28 @@
     <!-- Navigation -->
     <header class="w-full bg-white shadow-md">
       <div
-        class="container mx-auto px-6 lg:px-0 flex justify-between items-center py-8"
+        class="container mx-auto px-6 lg:px-0 flex flex-wrap justify-between items-center py-8"
       >
         <a class="cursor-pointer">
           <img src="src/images/logo.svg" alt="Insure logo" />
         </a>
-        <div class="md:hidden">
+        <button id="toggle" class="md:hidden">
           <img src="src/images/icon-hamburger.svg" alt="" />
-        </div>
-        <nav class="hidden lg:block">
+        </button>
+        <nav
+          id="navigation"
+          class="mt-5 lg:mt-0 hidden lg:block lg:w-auto lg:flex-grow-0"
+        >
           <a
-            class="font-bold mr-6 uppercase text-dark-grayish-violet hover:text-very-dark-violet transition-colors ease-in duration-300 cursor-pointer"
+            class="font-bold mr-6 mb-3 lg:mb-0 uppercase text-dark-grayish-violet hover:text-very-dark-violet transition-colors ease-in duration-300 cursor-pointer"
             >How we work</a
           >
           <a
-            class="font-bold mr-6 uppercase text-dark-grayish-violet hover:text-very-dark-violet transition-colors ease-in duration-300 cursor-pointer"
+            class="font-bold mr-6 mb-3 lg:mb-0 uppercase text-dark-grayish-violet hover:text-very-dark-violet transition-colors ease-in duration-300 cursor-pointer"
             >Blog</a
           >
           <a
-            class="font-bold mr-6 uppercase text-dark-grayish-violet hover:text-very-dark-violet transition-colors ease-in duration-300 cursor-pointer"
+            class="font-bold mr-6 mb-3 lg:mb-0 uppercase text-dark-grayish-violet hover:text-very-dark-violet transition-colors ease-in duration-300 cursor-pointer"
             >Account</a
           >
           <a class="btn--secondary">View Plans</a>
@@ -286,5 +289,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="/src/js/main.js"></script>
   </body>
 </html>
